@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Sparkfun_Pro_Micro_Mega32u4")(type "KiCad")(uri "${KIPRJMOD}/Pro_Micro_32u4.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit_NeoKey_Socket_Choc")(type "KiCad")(uri "${KIPRJMOD}/Adafruit_NeoKey_Socket_Choc.kicad_sym")(options "")(descr ""))
+)
