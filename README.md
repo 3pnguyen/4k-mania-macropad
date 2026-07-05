@@ -1,4 +1,4 @@
-# 4k-mania-macropad
+# 4k-mania-macropad [WIP]
 
 ## A simple 4-key macropad specifically made for 4K osu! mania.
 
