@@ -8,10 +8,10 @@
 #define SW3_PIN 4
 #define SW4_PIN 5
 
-#define SW1_KEY 'd'
-#define SW2_KEY 'f'
-#define SW3_KEY 'j'
-#define SW4_KEY 'k'
+#define SW1_KEY 'z'
+#define SW2_KEY 'x'
+#define SW3_KEY '.'
+#define SW4_KEY '/'
 
 #define DEBOUNCE_DELAY 3
 #define POLLING_DELAY 1 // polling rate of 1000Hz
