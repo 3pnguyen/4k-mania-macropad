@@ -18,7 +18,7 @@
 In general, this is a 4-key macropad that can be used for anything. But the only use case that I have for something like this is playing osu! mania. This project was designed to be very minimalistic and simple. It's true that I:
 
 * Created the schematic and PCB in a few hours
-* Wrote only 61 lines of C++ code
+* Wrote less than 60 lines of code
 
 And there is more than one advantage to simplicity then just time. Having the circuit be simplistic means that the code can focus all of its processing power onto the switches themselves.
 

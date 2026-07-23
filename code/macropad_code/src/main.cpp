@@ -14,7 +14,6 @@
 #define SW4_KEY '/'
 
 #define DEBOUNCE_DELAY 3
-#define POLLING_DELAY 1 // polling rate of 1000Hz
 
 // --------------------------------------------------------------------------------------------------------------
 
@@ -32,14 +31,13 @@ void setup() {
   }
 
   Keyboard.begin();
+  delay(100);
 }
 
 void loop() {
   for (int i = 0; i < 4; i++) {
     checkKey(SW1_PIN + i, keyPreviousStates[i], keyDebounceStartTimes[i], keys[i]);
   }
-
-  delay(POLLING_DELAY);
 }
 
 void checkKey (int pin, bool& previousState, unsigned long& debounceStartTime, char key) {
